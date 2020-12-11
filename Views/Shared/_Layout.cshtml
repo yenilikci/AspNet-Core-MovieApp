@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
+    <title>MovieApp</title>
 </head>
 <body>
-    @RenderBody()
+
+    <header>
+        @Html.Partial("_navbar")
+    </header>
+    <main>
+        <div class="container mt-5">
+            @RenderBody()
+        </div>
+    </main>
+    <footer>
+        @Html.Partial("_footer")
+    </footer>
 </body>
 </html>

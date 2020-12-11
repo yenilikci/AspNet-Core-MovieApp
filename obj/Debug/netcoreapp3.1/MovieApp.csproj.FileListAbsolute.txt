@@ -38,3 +38,7 @@ C:\Users\melih\source\repos\MovieApp\MovieApp\obj\Debug\netcoreapp3.1\MovieApp.d
 C:\Users\melih\source\repos\MovieApp\MovieApp\obj\Debug\netcoreapp3.1\MovieApp.pdb
 C:\Users\melih\source\repos\MovieApp\MovieApp\obj\Debug\netcoreapp3.1\MovieApp.genruntimeconfig.cache
 C:\Users\melih\source\repos\MovieApp\MovieApp\obj\Debug\netcoreapp3.1\MovieApp.csproj.CopyComplete
+C:\Users\melih\source\repos\MovieApp\MovieApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_footer.cshtml.g.cs
+C:\Users\melih\source\repos\MovieApp\MovieApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_navbar.cshtml.g.cs
+C:\Users\melih\source\repos\MovieApp\MovieApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_menu.cshtml.g.cs
+C:\Users\melih\source\repos\MovieApp\MovieApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\_movies.cshtml.g.cs
