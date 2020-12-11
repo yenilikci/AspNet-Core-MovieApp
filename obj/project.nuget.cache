@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vPlVzR2BP68Ni23qQcaYDteRvb2ElzCOjaHWe1UvwZm15FUYPjFExo2mukvgy9Ko1uE4bKHAc5Y8lQMLYdrmSw==",
+  "dgSpecHash": "fvQJi2teAttptwtlIVNu9AacBnCO4JAcjem5SwR62DiA+oEoDQo5wrrrXACUr7Cfx38RSf8LvSwK0qFBCoqQ3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\melih\\source\\repos\\MovieApp\\MovieApp\\MovieApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\melih\\.nuget\\packages\\bootstrap\\4.5.3\\bootstrap.4.5.3.nupkg.sha512",
+    "C:\\Users\\melih\\.nuget\\packages\\jquery\\3.0.0\\jquery.3.0.0.nupkg.sha512",
+    "C:\\Users\\melih\\.nuget\\packages\\popper.js\\1.16.1\\popper.js.1.16.1.nupkg.sha512"
+  ],
   "logs": []
 }
