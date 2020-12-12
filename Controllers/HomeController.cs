@@ -13,7 +13,7 @@ namespace MovieApp.Controllers
     {
         public IActionResult Index()
         {
-            return View(Repository.Movies); //Repository.Movies bize film listesini getirir bunu indexe götürür
+            return View(ProductRepository.Movies); //Repository.Movies bize film listesini getirir bunu indexe götürür
         }
 
         public IActionResult Contact()
@@ -24,7 +24,7 @@ namespace MovieApp.Controllers
         public IActionResult Details(int id)
         {
             //gönderilen id'ye sahip filmin bilgisini almak
-            return View(Repository.GetById(id));
+            return View(ProductRepository.GetById(id));
         }
     }
 }
