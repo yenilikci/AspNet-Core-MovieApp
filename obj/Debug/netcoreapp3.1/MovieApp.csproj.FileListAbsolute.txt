@@ -42,3 +42,4 @@ C:\Users\melih\source\repos\MovieApp\MovieApp\obj\Debug\netcoreapp3.1\Razor\View
 C:\Users\melih\source\repos\MovieApp\MovieApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_navbar.cshtml.g.cs
 C:\Users\melih\source\repos\MovieApp\MovieApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_menu.cshtml.g.cs
 C:\Users\melih\source\repos\MovieApp\MovieApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\_movies.cshtml.g.cs
+C:\Users\melih\source\repos\MovieApp\MovieApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs

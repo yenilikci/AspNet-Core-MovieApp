@@ -20,5 +20,11 @@ namespace MovieApp.Controllers
         {
             return View();
         }
+
+        public IActionResult Details(int id)
+        {
+            //gönderilen id'ye sahip filmin bilgisini almak
+            return View(Repository.GetById(id));
+        }
     }
 }
