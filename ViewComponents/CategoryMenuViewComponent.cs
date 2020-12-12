@@ -11,6 +11,13 @@ namespace MovieApp.ViewComponents
     {
         public IViewComponentResult Invoke()
         {
+            //{controller}/{action}/{id?}
+            // /home/index/3
+            // RouteData.Values[]
+            if (RouteData.Values["action"].ToString() == "Index")
+            {
+                ViewBag.selectedCategory = RouteData?.Values["id"];
+            }
             return View(CategoryRepository.Categories);
         }
     }
