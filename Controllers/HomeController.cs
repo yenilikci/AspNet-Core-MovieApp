@@ -13,7 +13,7 @@ namespace MovieApp.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return View(Repository.Movies); //Repository.Movies bize film listesini getirir bunu indexe götürür
         }
 
         public IActionResult Contact()
