@@ -17,10 +17,10 @@ namespace MovieApp.Controllers
             //ProductRepository.Movies
             //CategoryRepository.Categories
 
-            MovieCategoryModel model = new MovieCategoryModel();
-            model.Categories = CategoryRepository.Categories;
-            model.Movies = MovieRepository.Movies;
-            return View(model);
+            //MovieCategoryModel model = new MovieCategoryModel();
+            //model.Categories = CategoryRepository.Categories;
+            //model.Movies = MovieRepository.Movies;
+            return View(MovieRepository.Movies);
         }
 
         public IActionResult Contact()
@@ -30,11 +30,11 @@ namespace MovieApp.Controllers
 
         public IActionResult Details(int id)
         {
-            MovieCategoryModel model = new MovieCategoryModel();
-            model.Categories = CategoryRepository.Categories;
-            model.Movie = MovieRepository.GetById(id);
+            //MovieCategoryModel model = new MovieCategoryModel();
+            //model.Categories = CategoryRepository.Categories;
+            //model.Movie = MovieRepository.GetById(id);
 
-            return View(model);
+            return View(MovieRepository.GetById(id));
         }
     }
 }
