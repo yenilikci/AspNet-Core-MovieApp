@@ -12,7 +12,8 @@ namespace MovieApp.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        //Home/Index/3
+        public IActionResult Index(int? id)
         {
             //ProductRepository.Movies
             //CategoryRepository.Categories
@@ -20,7 +21,15 @@ namespace MovieApp.Controllers
             //MovieCategoryModel model = new MovieCategoryModel();
             //model.Categories = CategoryRepository.Categories;
             //model.Movies = MovieRepository.Movies;
-            return View(MovieRepository.Movies);
+
+            var movies = MovieRepository.Movies;
+
+            if (id != null)
+            {
+                movies = movies.Where(i => i.CategoryId == id).ToList();
+            }
+
+            return View(movies);
         }
 
         public IActionResult Contact()
